@@ -1,0 +1,41 @@
+.topics {
+    padding: 10px 30px 10px 10px;   
+}
+
+.point {
+    cursor: pointer;
+}
+
+.point:hover {
+    color: rgba(13,110,253);
+} 
+
+.topics-heading {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    cursor: pointer;
+    height: 66px;
+    transition-duration: .2s;
+}
+
+.bookmarks-heading {
+    background-color: #121111;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    cursor: pointer;
+    height: 66px;
+    transition-duration: .2s;
+}
+
+.offcanvas-header {
+    padding: unset;
+}
+
+.form-check-input:checked {
+    background-color: green;
+    border-color: green;
+}
